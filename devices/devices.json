@@ -1,0 +1,32 @@
+[
+    {
+        "id": "spike-prime",
+        "name": "LEGO Spike Prime",
+        "description": "Robot educativo para aprendizaje STEAM.",
+        "image": "/img/devices/spike-prime/cover.jpg"
+    },
+    {
+        "id": "snap-circuits",
+        "name": "Snap Circuits",
+        "description": "Circuitos magnéticos para aprender electricidad.",
+        "image": "/img/devices/snap-circuits/cover.jpg"
+    },
+    {
+        "id": "microbit",
+        "name": "BBC micro:bit",
+        "description": "Microcontrolador programable para educación.",
+        "image": "/img/devices/microbit/cover.jpg"
+    },
+    {
+        "id": "robot-master",
+        "name": "LEGO Robot Master",
+        "description": "Robot educativo para aprendizaje STEAM.",
+        "image": "/img/devices/robot-master/cover.jpg"
+    },
+    {
+        "id": "matatalab",
+        "name": "Matatalab",
+        "description": "Plataforma de robótica para educación.",
+        "image": "/img/devices/matatalab/cover.jpg"
+    }
+]

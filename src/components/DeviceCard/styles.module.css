@@ -1,0 +1,110 @@
+.card {
+  display: block;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-background-surface-color);
+  transition: box-shadow 180ms ease, transform 180ms ease, border-color 180ms ease;
+}
+.card:hover {
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-emphasis-300);
+}
+.card:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ifm-color-primary) 40%, transparent);
+}
+
+.media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--ifm-color-emphasis-100);
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 220ms ease;
+}
+.card:hover .image {
+  transform: scale(1.04);
+}
+
+.skeleton {
+  position: absolute;
+  inset: 0;
+  border-radius: 0;
+  background: linear-gradient(90deg, var(--ifm-color-emphasis-100) 0%, var(--ifm-color-emphasis-200) 50%, var(--ifm-color-emphasis-100) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-emphasis-200);
+}
+.fallbackText {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%);
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.overlayCta {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  color: #fff;
+  font-weight: 600;
+  background: rgba(0,0,0,0.35);
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.body {
+  padding: 14px 16px 18px;
+}
+.title {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  color: var(--ifm-font-color-base);
+}
+.description {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .image, .overlay, .skeleton { transition: none; animation: none; }
+}
+
+/* Fine-tune for dark mode */
+html[data-theme='dark'] .card:hover {
+  box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+html[data-theme='dark'] .overlayCta {
+  background: rgba(255,255,255,0.12);
+}
