@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://guategeeks.com/equipos-educativos/blog</id>
+    <title>Equipos Educativos Blog</title>
+    <updated>2025-12-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://guategeeks.com/equipos-educativos/blog"/>
+    <subtitle>Equipos Educativos Blog</subtitle>
+    <icon>https://guategeeks.com/equipos-educativos/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Equipos Educativos de GuateGeeks]]></title>
+        <id>https://guategeeks.com/equipos-educativos/blog/bienvenida</id>
+        <link href="https://guategeeks.com/equipos-educativos/blog/bienvenida"/>
+        <updated>2025-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¡Bienvenidos al catálogo de equipos educativos de GuateGeeks! Este sitio es tu recurso principal para explorar y aprender sobre nuestras plataformas de robótica, electrónica y programación.]]></summary>
+        <content type="html"><![CDATA[<p>¡Bienvenidos al catálogo de equipos educativos de GuateGeeks! Este sitio es tu recurso principal para explorar y aprender sobre nuestras plataformas de robótica, electrónica y programación.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-encontrarás-aquí">¿Qué encontrarás aquí?<a href="https://guategeeks.com/equipos-educativos/blog/bienvenida#qu%C3%A9-encontrar%C3%A1s-aqu%C3%AD" class="hash-link" aria-label="Enlace directo al ¿Qué encontrarás aquí?" title="Enlace directo al ¿Qué encontrarás aquí?" translate="no">​</a></h2>
+<p>En este sitio encontrarás información detallada sobre cada uno de nuestros equipos educativos:</p>
+<ul>
+<li class="">📚 <strong>Manuales completos</strong> de cada plataforma</li>
+<li class="">🎯 <strong>Tutoriales paso a paso</strong> para empezar rápidamente</li>
+<li class="">📥 <strong>Recursos descargables</strong> como guías y plantillas</li>
+<li class="">🏆 <strong>Desafíos prácticos</strong> para aplicar lo aprendido</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nuestros-equipos">Nuestros Equipos<a href="https://guategeeks.com/equipos-educativos/blog/bienvenida#nuestros-equipos" class="hash-link" aria-label="Enlace directo al Nuestros Equipos" title="Enlace directo al Nuestros Equipos" translate="no">​</a></h2>
+<p>Actualmente ofrecemos cinco plataformas educativas:</p>
+<ul>
+<li class=""><strong>LEGO SPIKE Prime</strong>: Robótica educativa con LEGO</li>
+<li class=""><strong>Snap Circuits</strong>: Electrónica práctica sin soldadura</li>
+<li class=""><strong>Matatalab</strong>: Programación tangible para los más pequeños</li>
+<li class=""><strong>Robot Master</strong>: Kit de robótica versátil</li>
+<li class=""><strong>micro<!-- -->:bit</strong>: Microcontrolador educativo</li>
+</ul>
+<p>Explora el <a class="" href="https://guategeeks.com/equipos-educativos/equipos/intro">catálogo completo</a> y comienza tu viaje en la educación STEM.</p>
+<p>¡Nos vemos en los talleres!</p>]]></content>
+        <author>
+            <name>Alvin Estrada</name>
+            <uri>https://linktr.ee/adawolfs</uri>
+        </author>
+        <category label="Educación" term="Educación"/>
+        <category label="Robótica" term="Robótica"/>
+    </entry>
+</feed>
