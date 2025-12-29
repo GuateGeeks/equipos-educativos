@@ -1,0 +1,52 @@
+---
+title: Tutoriales
+sidebar_position: 3
+---
+
+import { TutorialStep } from '@site/src/components/DevicePage';
+
+# Tutoriales · SPIKE Prime
+
+Guías paso a paso para comenzar y avanzar con SPIKE Prime.
+
+## Primeros pasos
+
+<TutorialStep step={1} title="Carga y enciende el Hub">
+Conecta el Hub al cargador hasta que la luz sea verde. Mantén presionado el botón central para encender.
+</TutorialStep>
+
+<TutorialStep step={2} title="Conecta al software">
+Abre la app SPIKE, selecciona tu Hub vía Bluetooth o USB y espera la confirmación de conexión.
+</TutorialStep>
+
+<TutorialStep step={3} title="Construye tu primer modelo">
+Sigue las instrucciones del proyecto "Base motriz" incluido en la app para familiarizarte con las piezas y conexiones.
+</TutorialStep>
+
+<TutorialStep step={4} title="Programa y prueba">
+Arrastra bloques para avanzar 10 cm, ejecuta el programa y mide el resultado. Ajusta y repite.
+</TutorialStep>
+
+---
+
+## Robot seguidor de línea
+
+<TutorialStep step={1} title="Materiales">
+Hub, 2 motores medianos, sensor de color, ruedas, piezas estructurales y cinta negra sobre fondo claro.
+</TutorialStep>
+
+<TutorialStep step={2} title="Construcción">
+Monta la base con motores a cada lado; coloca el sensor de color apuntando al suelo, cerca de las ruedas.
+</TutorialStep>
+
+<TutorialStep step={3} title="Lógica de control">
+Usa un bucle infinito: si el sensor detecta negro, avanza; si detecta blanco, gira suavemente hacia la línea.
+</TutorialStep>
+
+<TutorialStep step={4} title="Calibración">
+Ajusta umbrales del sensor según la iluminación y el tono del piso de tu aula.
+</TutorialStep>
+
+:::info Extensión
+Añade un contador de vueltas y muestra el tiempo en la pantalla del Hub.
+:::

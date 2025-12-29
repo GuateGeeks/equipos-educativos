@@ -1,0 +1,88 @@
+.devicesSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.sectionTag {
+  display: inline-block;
+  background: color-mix(in oklab, var(--ifm-color-primary) 15%, transparent);
+  color: var(--ifm-color-primary);
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.sectionHeader h2 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.sectionHeader p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1.1rem;
+}
+
+.filterBar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filterBtn {
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--ifm-font-color-base);
+}
+
+.filterBtn:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.filterBtn.active {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.devicesGrid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.devicesGrid > * {
+  max-width: 400px;
+}
+
+.devicesFooter {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .devicesSection {
+  background: var(--ifm-background-color);
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+  .devicesGrid {
+    grid-template-columns: 1fr;
+  }
+}

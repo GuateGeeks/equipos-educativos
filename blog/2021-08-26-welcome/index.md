@@ -1,29 +1,34 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+slug: bienvenida
+title: Equipos Educativos de GuateGeeks
+authors: [adawolfs]
+tags: [educacion, robotica]
+date: 2025-12-28
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-
-Here are a few tips you might find useful.
+¡Bienvenidos al catálogo de equipos educativos de GuateGeeks! Este sitio es tu recurso principal para explorar y aprender sobre nuestras plataformas de robótica, electrónica y programación.
 
 <!-- truncate -->
 
-Simply add Markdown files (or folders) to the `blog` directory.
+## ¿Qué encontrarás aquí?
 
-Regular blog authors can be added to `authors.yml`.
+En este sitio encontrarás información detallada sobre cada uno de nuestros equipos educativos:
 
-The blog post date can be extracted from filenames, such as:
+- 📚 **Manuales completos** de cada plataforma
+- 🎯 **Tutoriales paso a paso** para empezar rápidamente
+- 📥 **Recursos descargables** como guías y plantillas
+- 🏆 **Desafíos prácticos** para aplicar lo aprendido
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+## Nuestros Equipos
 
-A blog post folder can be convenient to co-locate blog post images:
+Actualmente ofrecemos cinco plataformas educativas:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+- **LEGO SPIKE Prime**: Robótica educativa con LEGO
+- **Snap Circuits**: Electrónica práctica sin soldadura
+- **Matatalab**: Programación tangible para los más pequeños
+- **Robot Master**: Kit de robótica versátil
+- **micro:bit**: Microcontrolador educativo
 
-The blog supports tags as well!
+Explora el [catálogo completo](/equipos/intro) y comienza tu viaje en la educación STEM.
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+¡Nos vemos en los talleres!

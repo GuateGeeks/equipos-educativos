@@ -1,0 +1,35 @@
+.card {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.25rem;
+  position: relative;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+}
+.title {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+.desc {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+.duration {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-500);
+}

@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+robotica:
+  label: Robótica
+  permalink: /robotica
+  description: Contenido sobre robótica educativa
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+educacion:
+  label: Educación
+  permalink: /educacion
+  description: Recursos y guías educativas
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+electronica:
+  label: Electrónica
+  permalink: /electronica
+  description: Proyectos y tutoriales de electrónica
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+programacion:
+  label: Programación
+  permalink: /programacion
+  description: Enseñanza de programación

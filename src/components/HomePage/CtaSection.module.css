@@ -1,0 +1,78 @@
+.cta {
+  padding: 4rem 0 5rem;
+}
+
+.ctaCard {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    var(--ifm-color-primary-darker) 100%
+  );
+  border-radius: 24px;
+  padding: 3rem;
+  color: #fff;
+}
+
+.ctaContent {
+  flex: 1;
+}
+
+.ctaContent h2 {
+  color: #fff;
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+
+.ctaContent p {
+  margin: 0 0 1.5rem;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaVisual {
+  flex-shrink: 0;
+}
+
+.ctaEmoji {
+  font-size: 6rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive */
+@media screen and (max-width: 996px) {
+  .ctaCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .ctaButtons {
+    justify-content: center;
+  }
+  
+  .ctaEmoji {
+    font-size: 4rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ctaEmoji {
+    animation: none;
+  }
+}

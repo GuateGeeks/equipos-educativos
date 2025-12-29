@@ -1,0 +1,10 @@
+{
+  "label": "BBC micro:bit",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "microbit/index"
+  }
+}
