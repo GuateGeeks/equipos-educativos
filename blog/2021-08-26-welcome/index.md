@@ -29,6 +29,6 @@ Actualmente ofrecemos cinco plataformas educativas:
 - **Robot Master**: Kit de robótica versátil
 - **micro:bit**: Microcontrolador educativo
 
-Explora el [catálogo completo](/equipos/intro) y comienza tu viaje en la educación STEM.
+Explora el [catálogo completo](/intro) y comienza tu viaje en la educación STEM.
 
 ¡Nos vemos en los talleres!

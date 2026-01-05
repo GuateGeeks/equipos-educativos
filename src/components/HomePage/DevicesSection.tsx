@@ -47,7 +47,7 @@ export default function DevicesSection() {
         </div>
         
         <div className={styles.devicesFooter}>
-          <Link className="button button--outline button--lg" to="/equipos/intro">
+          <Link className="button button--outline button--lg" to="/intro">
             Ver todos los recursos →
           </Link>
         </div>
