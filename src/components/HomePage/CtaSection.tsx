@@ -15,7 +15,7 @@ export default function CtaSection() {
               para cada equipo. Todo lo que necesitas para tus clases.
             </p>
             <div className={styles.ctaButtons}>
-              <Link className="button button--primary button--lg" to="/equipos/intro">
+              <Link className="button button--primary button--lg" to="/intro">
                 Comenzar ahora
               </Link>
               <Link className="button button--secondary button--lg" to="/blog">

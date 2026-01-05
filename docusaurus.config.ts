@@ -41,7 +41,7 @@ const config: Config = {
       {
         docs: {
           path: 'devices',
-          routeBasePath: 'equipos',
+          routeBasePath: '',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -77,17 +77,19 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Equipos Educativos',
+      title: '',
       logo: {
         alt: 'Equipos Educativos Logo',
         src: 'img/logo.svg',
+        href: 'https://guategeeks.com',
       },
       items: [
+        {to: '/', label: 'Inicio', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Dispositivos',
         },
         {to: '/blog', label: 'Blog', position: 'left'}
       ]

@@ -4,7 +4,7 @@
         "name": "LEGO Spike Prime",
         "description": "Robot educativo para aprendizaje STEAM.",
         "image": "/img/devices/spike-prime/cover.jpg",
-        "category": "Lego"
+        "category": "Robotics"
     },
     {
         "id": "snap-circuits",
@@ -22,10 +22,10 @@
     },
     {
         "id": "robot-master",
-        "name": "LEGO Robot Master",
+        "name": "Makerzoid Robot Master",
         "description": "Robot educativo para aprendizaje STEAM.",
         "image": "/img/devices/robot-master/cover.jpg",
-        "category": "Lego"
+        "category": "Robotics"
     },
     {
         "id": "matatalab",
@@ -33,5 +33,12 @@
         "description": "Plataforma de robótica para educación.",
         "image": "/img/devices/matatalab/cover.jpg",
         "category": "AI"
+    },
+    {
+        "id": "codrone-edu",
+        "name": "CoDrone EDU",
+        "description": "Dron programable para aprendizaje con 7 sensores.",
+        "image": "/img/devices/codrone-edu/cover.jpg",
+        "category": "Drones"
     }
 ]

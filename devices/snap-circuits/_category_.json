@@ -2,7 +2,7 @@
   "label": "Snap Circuits",
   "position": 3,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "snap-circuits/index"

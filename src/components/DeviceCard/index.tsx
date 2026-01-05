@@ -15,7 +15,7 @@ export default function DeviceCard({ id, name, description, image }: DeviceCardP
 
   return (
     <Link
-      to={`/equipos/${id}`}
+      to={`/${id}`}
       className={styles.card}
       aria-label={`Ver detalles de ${name}`}
     >

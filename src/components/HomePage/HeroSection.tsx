@@ -47,7 +47,7 @@ export default function HeroSection() {
           habilidades del siglo XXI.
         </p>
         <div className={styles.heroCta}>
-          <Link className={clsx('button button--lg', styles.ctaPrimary)} to="/equipos/intro">
+          <Link className={clsx('button button--lg', styles.ctaPrimary)} to="/intro">
             Explorar equipos
           </Link>
           <Link className={clsx('button button--lg button--outline', styles.ctaSecondary)} to="#devices">
