@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkguategeeks=globalThis.webpackChunkguategeeks||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/equipos-educativos/blog","blogTitle":"Blog","authorsListPath":"/equipos-educativos/blog/authors"}')}}]);

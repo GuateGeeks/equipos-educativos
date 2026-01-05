@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkguategeeks=globalThis.webpackChunkguategeeks||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Equipos Educativos de GuateGeeks","permalink":"/equipos-educativos/blog/bienvenida","unlisted":false,"date":"2025-12-28T00:00:00.000Z"}]}')}}]);
