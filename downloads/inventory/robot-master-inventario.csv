@@ -1,6 +1,155 @@
-Item,Cantidad,Estado,Notas
-Bloques estructurales,Var.,OK,
-Motores/servos,Var.,OK,
-Sensores básicos,Var.,OK,
-Módulo/control,1,OK,
-Cables,Var.,OK,
+﻿Categoria,ID,Nombre de la pieza,Cantidad por kit
+Plates,RM-PL-001,Placa circular grande azul (perforada),2
+Plates,RM-PL-002,Pieza pequeña negra tipo conector/buje (cluster),6
+Plates,RM-PL-003,Cilindro corto blanco con aro negro (buje/tapón),2
+Plates,RM-PL-004,Disco/engranaje redondo blanco,2
+Plates,RM-PL-005,Disco redondo gris con agujero central,2
+Plates,RM-PL-006,Disco redondo blanco con agujero central,2
+Plates,RM-PL-007,Buje/rodillo redondo verde,4
+Plates,RM-PL-008,Placa gris 2x2 redondeada (tipo soporte),1
+Plates,RM-PL-009,Placa negra cuadrada con círculo central,1
+Plates,RM-PL-010,Marco/placa cuadrada gris (frame),2
+Plates,RM-PL-011,Placa verde rectangular grande (perforada),2
+Plates,RM-PL-012,Plate 1x2 turquesa (perforada),4
+Plates,RM-PL-013,Plate blanca 1x2 perforada,8
+Plates,RM-PL-014,Plate blanca 1x4 perforada,6
+Plates,RM-PL-015,Plate blanca 1x6 perforada,6
+Plates,RM-PL-016,Tile gris 1x6,4
+Plates,RM-PL-017,Plate blanca 1x12 perforada,2
+Plates,RM-PL-018,Plate naranja 1x4 perforada,4
+Plates,RM-PL-019,Plate naranja 1x6 perforada,4
+Plates,RM-PL-020,Plate verde 1x12 perforada,4
+Plates,RM-PL-021,Plate negra larga perforada,2
+Plates,RM-PL-022,Soporte/Conector blanco en L,2
+Bricks,RM-BR-001,Brick wedge triangular naranja,4
+Bricks,RM-BR-002,Brick wedge triangular verde,4
+Bricks,RM-BR-003,Brick wedge triangular negro pequeño,2
+Bricks,RM-BR-004,Brick azul (rectangular),2
+Bricks,RM-BR-005,Brick naranja (rectangular),4
+Bricks,RM-BR-006,Brick azul (rectangular alargado),2
+Bricks,RM-BR-007,Cilindro azul (brick redondo),4
+Bricks,RM-BR-008,Brick negro (cuadrado),4
+Bricks,RM-BR-009,Brick azul (cuadrado),2
+Bricks,RM-BR-010,Brick azul 1x2 (rectangular pequeño),6
+Bricks,RM-BR-011,Pieza curva azul (arco),2
+Bricks,RM-BR-012,Pieza curva verde (corta),2
+Bricks,RM-BR-013,Pieza curva verde (media),2
+Bricks,RM-BR-014,Pieza curva verde (larga),4
+Bricks,RM-BR-015,Pieza curva azul (larga),2
+Bricks,RM-BR-016,Brick gris con agujero (técnico),4
+Bricks,RM-BR-017,Brick verde modificado (técnico),4
+Bricks,RM-BR-018,Brick gris oscuro 1x2 modificado (técnico),4
+Bricks,RM-BR-019,Cilindro rojo (brick redondo),2
+Bricks,RM-BR-020,Cilindro verde (brick redondo),2
+Bricks,RM-BR-021,Cilindro amarillo (brick redondo),2
+Bricks,RM-BR-022,Tile/Plate naranja 1x2,4
+Bricks,RM-BR-023,Brick wedge pequeño verde,4
+Bricks,RM-BR-024,Brick wedge pequeño naranja,4
+Bricks,RM-BR-025,Brick verde perforado largo (corto),4
+Bricks,RM-BR-026,Brick verde perforado largo (medio),2
+Bricks,RM-BR-027,Brick verde perforado largo (largo),4
+Bricks,RM-BR-028,Brick verde perforado largo (muy largo),2
+Bricks,RM-BR-029,Brick verde perforado largo (extra largo),2
+Bricks,RM-BR-030,Brick blanco 1x2 modificado (técnico),2
+Bricks,RM-BR-031,Pieza gris tipo slope/soporte,4
+Shafts and Pins,RM-SH-001,Shaft/varilla roscada 1x2 roja,4
+Shafts and Pins,RM-SH-002,Varilla roscada corta gris (tipo A),2
+Shafts and Pins,RM-SH-003,Varilla roscada corta negra (tipo B),2
+Shafts and Pins,RM-SH-004,Varilla roscada corta gris oscuro (tipo C),4
+Shafts and Pins,RM-SH-005,Varilla roscada corta gris claro (tipo D),2
+Shafts and Pins,RM-SH-006,Varilla roscada larga negra (tipo E),2
+Shafts and Pins,RM-SH-007,Varilla roscada larga gris (tipo F),2
+Shafts and Pins,RM-SH-008,Varilla roscada larga negra (tipo G),2
+Shafts and Pins,RM-SH-009,Varilla roscada larga gris oscuro (tipo H),2
+Shafts and Pins,RM-SH-010,Eje negro con cabeza/tope,2
+Shafts and Pins,RM-SH-011,Buje/beige pequeño,1
+Shafts and Pins,RM-SH-012,Pin negro (conector),16
+Shafts and Pins,RM-SH-013,Buje gris (conector),13
+Shafts and Pins,RM-SH-014,Pin beige (conector),6
+Shafts and Pins,RM-SH-015,Pin/varilla azul (pieza ondulada),5
+Shafts and Pins,RM-SH-016,Pin/varilla beige (pieza ondulada),4
+Arms,RM-AR-001,Brazo/conector azul pequeño,4
+Arms,RM-AR-002,Brazo/conector rojo,2
+Arms,RM-AR-003,Brazo/conector verde,2
+Arms,RM-AR-004,Brazo/conector celeste,4
+Arms,RM-AR-005,Brazo verde (corto),4
+Arms,RM-AR-006,Brazo verde (medio),4
+Arms,RM-AR-007,Brazo verde (largo),4
+Arms,RM-AR-008,Brazo verde (extra largo),2
+Arms,RM-AR-009,Gancho blanco,4
+Arms,RM-AR-010,Gancho negro,2
+Arms,RM-AR-011,"Technic, Link Tread",2
+Connectors and Gears,RM-CG-001,Conector cilíndrico verde,2
+Connectors and Gears,RM-CG-002,Conector bloque gris,2
+Connectors and Gears,RM-CG-003,Technic Brick Modified 2x2 with Balls (with holes + axle hole),2
+Connectors and Gears,RM-CG-004,Conector rojo curvo,4
+Connectors and Gears,RM-CG-005,Conector blanco cilíndrico,4
+Connectors and Gears,RM-CG-006,Conector blanco doble,2
+Connectors and Gears,RM-CG-007,Conector negro (triple),2
+Connectors and Gears,RM-CG-008,Conector verde vertical,2
+Connectors and Gears,RM-CG-009,Conector azul vertical,2
+Connectors and Gears,RM-CG-010,Soporte negro en L,4
+Connectors and Gears,RM-CG-011,Buje gris (bushing),7
+Connectors and Gears,RM-CG-012,Engranaje amarillo pequeño,9
+Connectors and Gears,RM-CG-013,Tambor/cilindro gris grande,1
+Connectors and Gears,RM-CG-014,Cremallera blanca (rack),4
+Connectors and Gears,RM-CG-015,Engranaje gris pequeño,4
+Connectors and Gears,RM-CG-016,Engranaje beige mediano,3
+Connectors and Gears,RM-CG-017,Engranaje negro pequeño,2
+Connectors and Gears,RM-CG-018,Engranaje negro grande,2
+Connectors and Gears,RM-CG-019,Engranaje beige grande,2
+Connectors and Gears,RM-CG-020,Engranaje gris oscuro (sprocket),4
+Connectors and Gears,RM-CG-021,Caja/transmisión transparente,1
+Other accessories,RM-OA-001,Rin/rueda blanca,6
+Other accessories,RM-OA-002,Rin/rueda negra,4
+Other accessories,RM-OA-003,Llanta/neumático grande negro,2
+Other accessories,RM-OA-004,Clip/anillo en C,2
+Other accessories,RM-OA-005,Tornillo negro,2
+Other accessories,RM-OA-006,Polea/carrete doble gris,1
+Other accessories,RM-OA-007,Hélice azul,1
+Other accessories,RM-OA-008,Marco triangular (estructura),5
+Other accessories,RM-OA-009,Disco decorativo turquesa,5
+Other accessories,RM-OA-010,Banda elástica negra (O-ring),2
+Other accessories,RM-OA-011,Resorte negro pequeño,5
+Other accessories,RM-OA-012,Disco naranja,4
+Other accessories,RM-OA-013,Soporte gris con dos bolitas laterales,2
+Other accessories,RM-OA-014,Módulo negro con 2 rodillos/rueditas,1
+Other accessories,RM-OA-015,Soporte/base celeste,4
+Other accessories,RM-OA-016,Banda elástica roja,2
+Other accessories,RM-OA-017,Banda elástica amarilla,2
+Other accessories,RM-OA-018,Banda elástica blanca,3
+Other accessories,RM-OA-019,Banda elástica negra delgada,1
+Premium adicional,RM-PR-001,Conector verde (tipo poste),2
+Premium adicional,RM-PR-002,Conector azul (tipo poste),2
+Premium adicional,RM-PR-003,Pieza negra pequeña (clip) tipo A,2
+Premium adicional,RM-PR-004,Pieza negra pequeña (clip) tipo B,2
+Premium adicional,RM-PR-005,Brazo curvo naranja (izquierdo),2
+Premium adicional,RM-PR-006,Brazo curvo naranja (derecho),2
+Premium adicional,RM-PR-007,Barra/beam celeste largo,2
+Premium adicional,RM-PR-008,Barra blanca larga perforada,2
+Premium adicional,RM-PR-009,Barra gris corta perforada,2
+Premium adicional,RM-PR-010,Pins negros (paquete),100
+Premium adicional,RM-PR-011,Conector negro en U,2
+Premium adicional,RM-PR-012,Brick gris pequeño (técnico) tipo A,4
+Premium adicional,RM-PR-013,Brick gris (técnico) tipo B,2
+Premium adicional,RM-PR-014,Brick gris (técnico) tipo C,2
+Premium adicional,RM-PR-015,Cilindro/sleeve gris,2
+Premium adicional,RM-PR-016,Varilla roscada larga gris (tipo premium),2
+Premium adicional,RM-PR-017,Engranaje amarillo (rueda),2
+Premium adicional,RM-PR-018,Soporte amarillo en L,2
+Premium adicional,RM-PR-019,Ensamble/beam amarillo grande,2
+Premium adicional,RM-PR-020,Beam amarillo corto tipo A,2
+Premium adicional,RM-PR-021,Beam amarillo corto tipo B,2
+Premium adicional,RM-PR-022,Conector rojo curvo,2
+Premium adicional,RM-PR-023,Brick rojo (técnico),2
+Premium adicional,RM-PR-024,Eje/cilindro rojo largo,4
+Premium adicional,RM-PR-025,Conector rojo doble,2
+Premium adicional,RM-PR-026,Shaft rojo corto,6
+Premium adicional,RM-PR-027,Brick gris perforado (técnico),4
+Premium adicional,RM-PR-028,Pin negro (eje),8
+Premium adicional,RM-PR-029,Pin azul (tipo A),10
+Premium adicional,RM-PR-030,Pin azul (tipo B),6
+Premium adicional,RM-PR-031,Conector beige pequeño,4
+Premium adicional,RM-PR-032,Conector beige largo,6
+Premium adicional,RM-PR-033,Engranaje gris grande,2
+Premium adicional,RM-PR-034,Varilla roscada gris (corta),6
