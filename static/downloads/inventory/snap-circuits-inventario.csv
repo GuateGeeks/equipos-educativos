@@ -1,10 +1,36 @@
-Item,Cantidad,Estado,Notas
-Base de montaje,1,OK,
-Módulo de alimentación,1,OK,
-Interruptores,2,OK,
-LEDs,Var.,OK,
-Altavoz/Buzzer,1,OK,
-Resistores,Var.,OK,
-Capacitores,Var.,OK,
-Motor/ventilador,1,OK,
-Cables/conectores,Var.,OK,
+﻿Categoria,ID,Nombre de la pieza,Código de pieza,Cantidad por kit
+Base,,Base Grid 11.0 x 7.7 in,6SCBG,1
+Cable,1,1-Snap Wire,6SC01,3
+Cable,2,2-Snap Wire,6SC02,6
+Cable,3,3-Snap Wire,6SC03,3
+Cable,4,4-Snap Wire,6SC04,1
+Cable,5,5-Snap Wire,6SC05,1
+Cable,6,6-Snap Wire,6SC06,1
+Interruptor,S1,Slide Switch,6SCS1,1
+Interruptor,S2,Press Switch,6SCS2,1
+Sensor,RP,Photoresistor,6SCRP,1
+Sonido,WC,Whistle Chip,6SCWC,1
+Luz,D1,Red LED,6SCD1,1
+Luz,D2,Green LED,6SCD2,1
+Resistor,R1,100Ω Resistor,6SCR1,1
+Resistor,R2,1kΩ Resistor,6SCR2,1
+Resistor,R3,5.1kΩ Resistor,6SCR3,1
+Resistor,R4,10kΩ Resistor,6SCR4,1
+Resistor,R5,100kΩ Resistor,6SCR5,1
+Capacitor,C1,0.02µF Capacitor,6SCC1,1
+Capacitor,C2,0.1µF Capacitor,6SCC2,1
+Capacitor,C3,10µF Capacitor,6SCC3,1
+Capacitor,C4,100µF Capacitor,6SCC4,1
+Capacitor,C5,470µF Capacitor,6SCC5,1
+IC,U1,Music Integrated Circuit,6SCU1,1
+IC,U2,Alarm Integrated Circuit,6SCU2,1
+IC,U3,Space War IC,6SCU3,1
+IC,U4,Power Amplifier IC,6SCU4,1
+IC,U5,High Frequency IC,6SCU5,1
+Entrada,X1,Microphone,6SCX1,1
+Motor,M1,Motor Fan,6SCM1,1
+Energía,B1,Battery Holder AA,6SCB1,1
+Variable,RV,Adjustable Resistor,6SCRV,1
+Variable,CV,Variable Capacitor,6SCCV,1
+Transistor,Q1,PNP Transistor,6SCQ1,1
+Transistor,Q2,NPN Transistor,6SCQ2,1

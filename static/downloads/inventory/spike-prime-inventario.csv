@@ -1,9 +1,94 @@
-Item,Cantidad,Estado,Notas
-Hub programable,1,OK,
-Motor mediano,2,OK,
-Motor grande,1,OK,
-Sensor de color,1,OK,
-Sensor de distancia,1,OK,
-Estructuras/elementos LEGO,Var.,OK,Clasificar por tipo
-Cables,Var.,OK,
-Batería/cargador,1,OK,
+Categoria,Nombre_de_la_pieza,Cantidad_por_kit
+Ejes,Cross axle 2m w/snap w/friction,10
+Ejes,Cross axle 4m,4
+Ejes,Cross axle 8m,4
+Ejes,Cross axle 3m,8
+Ejes,Cross axle 7m,4
+Ejes,Cross axle 11m,2
+Ejes,Cross axle 2m w/groove,8
+Ejes,Cross axle 5m,4
+Ejes,Cross axle 9m,4
+Ejes,Cross axle extension 2m,2
+Conectores,Connector peg w/friction,72
+Conectores,Connector peg w/friction 3m,10
+Conectores,Connector peg / cross axle,20
+Conectores,Double cross block,4
+Conectores,Bush for cross axle,10
+Conectores,2m friction snap w/cross hole,10
+Vigas,Technic 3m beam,6
+Vigas,Technic 5m beam,4
+Vigas,Technic 7m beam,6
+Vigas,Technic 9m beam,4
+Vigas,Technic 11m beam,4
+Vigas,Technic 13m beam,4
+Vigas,Technic 15m beam,6
+Vigas,Beam 3m w/4 snaps,12
+Vigas,Beam 1m w/2 snaps,2
+Vigas,Beam I-frame 3x5,3
+Vigas,Technic 2m beam w/cross hole,4
+Vigas,Technic angular beam 2x4 90 deg,4
+Vigas,Technic angular beam 3x5 90 deg,4
+Vigas,Technic angular beam 3x7,2
+Vigas,Technic double angular beam 3x7 45 deg,4
+Vigas,Technic angular beam 4x4,4
+Vigas,T-beam 3x3,4
+Vigas,Angle element 0 degrees,4
+Vigas,Angle element 90 degrees,4
+Vigas,Angle element 135 degrees,4
+Vigas,Angle element 180 degrees,4
+Placas,Plate 2x8 w/holes,4
+Placas,Plate 2x16,2
+Placas,Plate round 2x2,4
+Placas,Plate round w/1 knob,2
+Placas,Flat tile round 2x2 black,4
+Placas,Flat tile 2x2 round no.1099,2
+Placas,Flat tile 1x1 round no.76,2
+Placas,Flat tile 1x1 round no.62,2
+Ladrillos,Brick 2x6 w/bow,4
+Ladrillos,Brick 2x4 w/cross hole yellow,2
+Ladrillos,Brick 2x4 w/cross hole magenta,2
+Ladrillos,Brick 2x4 w/cross hole green,2
+Ladrillos,Brick 2x4 w/cross hole red,2
+Ladrillos,Brick 2x4 w/cross hole blue,2
+Ladrillos,Brick w/half bow 2x3 w/cut,4
+Ladrillos,Brick round 2x2 white,4
+Paneles,Panel 11x19,2
+Paneles,Flat panel 3x11m,2
+Paneles,Bowed panel 3x11x2,2
+Paneles,Shell 6x8x2 w/bow/angle,1
+Paneles,Left shell 3x8x2 w/bow/angle,1
+Paneles,Right shell 3x8x2 w/bow/angle,1
+Marcos,Technic frame 5x7,2
+Marcos,Technic frame 7x11,2
+Marcos,Technic frame 11x15,2
+Ruedas,Double conical wheel z12,2
+Ruedas,Double conical wheel z20,2
+Ruedas,Double conical wheel z36,2
+Ruedas,Angled gear wheel z28,2
+Ruedas,Rack 13m,12
+Ruedas,Wheel ø56,4
+Ruedas,Rim narrow ø18x7 mm cross,2
+Ruedas,Tyre low narrow ø24x7mm,2
+Ruedas,Wedge-belt wheel ø24,2
+Ruedas,Tyre for wedge-belt wheel,2
+Elasticos,Rubber band ø33 yellow,2
+Cables,Wire clip w/cross hole yellow,2
+Cables,Wire clip w/cross hole red,2
+Cables,Wire clip w/cross hole green,2
+Cables,Wire clip w/cross hole magenta,2
+Cables,Wire clip w/cross hole blue,2
+Cables,Wire clip w/cross hole azur,2
+Tubos,Tube w/double 4.85 hole,2
+Tubos,Flex hose 19m w/3.18 stick,2
+Sensores,Force Sensor,1
+Sensores,Color Sensor,1
+Sensores,Distance Sensor,1
+Motores,Medium Motor,2
+Motores,Large Motor,1
+Control,Large Hub,1
+Control,Hub battery,1
+Accesorios,Micro USB cable,1
+Accesorios,Ball,1
+Accesorios,Ball cup,1
+Figuras,Kate,1
+Figuras,Kyle,1
