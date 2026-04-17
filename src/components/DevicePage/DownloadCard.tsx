@@ -103,8 +103,10 @@ export default function DownloadCard({ title, description, href, icon }: Downloa
     IconComponent = iconMap[icon];
   }
   
+  const resolvedHref = useBaseUrl(href);
+
   return (
-    <a href={useBaseUrl(href)} download className={styles.card}>
+    <a href={resolvedHref} target="_blank" rel="noopener noreferrer" className={styles.card}>
       <span className={styles.icon}>
         <IconComponent size={24} />
       </span>
@@ -113,7 +115,7 @@ export default function DownloadCard({ title, description, href, icon }: Downloa
         {description && <p className={styles.desc}>{description}</p>}
       </div>
       <span className={styles.arrow}>
-        <FiIcons.FiDownload size={16} />
+        <FiIcons.FiExternalLink size={16} />
       </span>
     </a>
   );
