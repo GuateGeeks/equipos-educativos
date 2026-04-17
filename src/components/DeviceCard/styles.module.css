@@ -1,21 +1,42 @@
 .card {
   display: block;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 16px;
+  border: 1px solid var(--glass-border, rgba(255,255,255,0.5));
+  border-radius: 20px;
   overflow: hidden;
   text-decoration: none;
   color: var(--ifm-font-color-base);
-  background: var(--ifm-background-surface-color);
-  transition: box-shadow 180ms ease, transform 180ms ease, border-color 180ms ease;
+  background: var(--glass-bg-card, var(--ifm-background-surface-color));
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  box-shadow:
+    0 0 0 0.5px var(--glass-border-subtle, rgba(255,255,255,0.3)),
+    0 4px 20px var(--glass-shadow, rgba(0,0,0,0.08)),
+    inset 0 1px 0 var(--glass-specular, rgba(255,255,255,0.8));
+  transition: box-shadow 280ms ease, transform 280ms ease, border-color 280ms ease;
+  position: relative;
 }
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--glass-specular, rgba(255,255,255,0.8)), transparent);
+  z-index: 1;
+}
+
 .card:hover {
-  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
-  transform: translateY(-2px);
-  border-color: var(--ifm-color-emphasis-300);
+  box-shadow:
+    0 0 0 0.5px rgba(239, 133, 86, 0.3),
+    0 12px 40px var(--glass-shadow-lg, rgba(0,0,0,0.12)),
+    inset 0 1px 0 var(--glass-specular, rgba(255,255,255,0.8));
+  transform: translateY(-4px) scale(1.01);
+  border-color: rgba(239, 133, 86, 0.35);
 }
+
 .card:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ifm-color-primary) 40%, transparent);
+  box-shadow: 0 0 0 3px rgba(239, 133, 86, 0.4);
 }
 
 .media {
@@ -28,17 +49,20 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 220ms ease;
+  transition: transform 320ms ease;
 }
 .card:hover .image {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 .skeleton {
   position: absolute;
   inset: 0;
   border-radius: 0;
-  background: linear-gradient(90deg, var(--ifm-color-emphasis-100) 0%, var(--ifm-color-emphasis-200) 50%, var(--ifm-color-emphasis-100) 100%);
+  background: linear-gradient(90deg,
+    var(--ifm-color-emphasis-100) 0%,
+    var(--ifm-color-emphasis-200) 50%,
+    var(--ifm-color-emphasis-100) 100%);
   background-size: 200% 100%;
   animation: shimmer 1.2s linear infinite;
 }
@@ -65,9 +89,9 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.65) 100%);
   opacity: 0;
-  transition: opacity 200ms ease;
+  transition: opacity 240ms ease;
 }
 .card:hover .overlay {
   opacity: 1;
@@ -77,10 +101,12 @@
   right: 12px;
   bottom: 12px;
   color: #fff;
-  font-weight: 600;
-  background: rgba(0,0,0,0.35);
-  padding: 6px 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background: rgba(239, 133, 86, 0.85);
+  padding: 5px 12px;
   border-radius: 999px;
+  backdrop-filter: blur(4px);
 }
 
 .body {
@@ -88,23 +114,20 @@
 }
 .title {
   margin: 0 0 6px;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  letter-spacing: 0.01em;
   color: var(--ifm-font-color-base);
 }
 .description {
   margin: 0;
   color: var(--ifm-color-emphasis-700);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .card, .image, .overlay, .skeleton { transition: none; animation: none; }
-}
-
-/* Fine-tune for dark mode */
-html[data-theme='dark'] .card:hover {
-  box-shadow: 0 10px 24px rgba(0,0,0,0.35);
-}
-html[data-theme='dark'] .overlayCta {
-  background: rgba(255,255,255,0.12);
+  .card:hover { transform: none; }
 }

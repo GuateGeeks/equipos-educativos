@@ -70,7 +70,7 @@
 
 .animatedWord {
   display: inline-block;
-  background: linear-gradient(90deg, #fbbf24, #f59e0b);
+  background: linear-gradient(90deg, #f8c4a8, #f4a07a);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

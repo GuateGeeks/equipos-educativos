@@ -1,7 +1,9 @@
 .stats {
   padding: 3rem 0;
-  background: var(--ifm-background-surface-color);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--glass-bg, var(--ifm-background-surface-color));
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border-bottom: 1px solid var(--glass-border, var(--ifm-color-emphasis-200));
 }
 
 .statsGrid {
@@ -16,12 +18,12 @@
   align-items: center;
   text-align: center;
   padding: 1.5rem 1rem;
-  border-radius: 12px;
-  transition: transform 0.2s ease;
+  border-radius: 16px;
+  transition: transform 240ms ease;
 }
 
 .statCard:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .statIcon {
@@ -32,34 +34,27 @@
 .statValue {
   font-size: 2.5rem;
   font-weight: 800;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
   color: var(--ifm-color-primary);
   line-height: 1;
 }
 
 .statLabel {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--ifm-color-emphasis-600);
   margin-top: 0.25rem;
+  font-weight: 500;
 }
 
-/* Dark mode */
-html[data-theme='dark'] .stats {
-  background: var(--ifm-background-color);
-}
-
-html[data-theme='dark'] .statCard:hover {
-  box-shadow: 0 12px 32px rgba(0,0,0,0.3);
-}
-
-/* Responsive */
 @media screen and (max-width: 996px) {
-  .statsGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media screen and (max-width: 576px) {
-  .statValue {
-    font-size: 2rem;
-  }
+  .statValue { font-size: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .statCard { transition: none; }
+  .statCard:hover { transform: none; }
 }

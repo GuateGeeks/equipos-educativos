@@ -3,26 +3,36 @@
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+
 .number {
   flex-shrink: 0;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: var(--ifm-color-primary);
+  background: linear-gradient(135deg, #ef8556, #c75730);
   color: #fff;
-  font-weight: 700;
+  font-weight: 800;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(239, 133, 86, 0.35);
 }
+
 .content {
   flex: 1;
 }
+
 .title {
   margin: 0 0 0.25rem;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
+
 .body {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   color: var(--ifm-color-emphasis-800);
+  line-height: 1.6;
 }

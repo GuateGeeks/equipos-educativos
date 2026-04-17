@@ -9,24 +9,30 @@
 
 .sectionTag {
   display: inline-block;
-  background: color-mix(in oklab, var(--ifm-color-primary) 15%, transparent);
+  background: rgba(239, 133, 86, 0.12);
   color: var(--ifm-color-primary);
   padding: 0.35rem 1rem;
   border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   margin-bottom: 0.75rem;
+  border: 1px solid rgba(239, 133, 86, 0.2);
 }
 
 .sectionHeader h2 {
   margin: 0 0 0.5rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .sectionHeader p {
   margin: 0;
   color: var(--ifm-color-emphasis-600);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .benefitsGrid {
@@ -36,18 +42,37 @@
 }
 
 .benefitCard {
-  background: var(--ifm-background-surface-color);
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 16px;
+  background: var(--glass-bg-card, var(--ifm-background-surface-color));
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--glass-border, var(--ifm-color-emphasis-200));
+  border-radius: 20px;
   padding: 2rem 1.5rem;
   text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow:
+    0 0 0 0.5px var(--glass-border-subtle, rgba(255,255,255,0.3)),
+    0 4px 20px var(--glass-shadow, rgba(0,0,0,0.06)),
+    inset 0 1px 0 var(--glass-specular, rgba(255,255,255,0.8));
+  transition: transform 280ms ease, box-shadow 280ms ease, border-color 280ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.benefitCard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--glass-specular, rgba(255,255,255,0.8)), transparent);
 }
 
 .benefitCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0,0,0,0.1);
-  border-color: var(--ifm-color-primary);
+  transform: translateY(-6px) scale(1.01);
+  box-shadow:
+    0 0 0 0.5px rgba(239, 133, 86, 0.3),
+    0 16px 48px var(--glass-shadow-lg, rgba(0,0,0,0.12)),
+    inset 0 1px 0 var(--glass-specular, rgba(255,255,255,0.8));
+  border-color: rgba(239, 133, 86, 0.35);
 }
 
 .benefitIcon {
@@ -59,16 +84,19 @@
 .benefitCard h3 {
   margin: 0 0 0.5rem;
   font-size: 1.15rem;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .benefitCard p {
   margin: 0;
   color: var(--ifm-color-emphasis-700);
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 0.92rem;
+  line-height: 1.6;
 }
 
-/* Dark mode */
-html[data-theme='dark'] .benefitCard:hover {
-  box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+@media (prefers-reduced-motion: reduce) {
+  .benefitCard { transition: none; }
+  .benefitCard:hover { transform: none; }
 }
