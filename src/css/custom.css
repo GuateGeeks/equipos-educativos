@@ -60,7 +60,7 @@
   --ifm-link-hover-color: var(--gg-coral-500);
 
   /* Navbar glass */
-  --ifm-navbar-background-color: rgba(255, 255, 255, 0.75);
+  --ifm-navbar-background-color: #ffffff;
   --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, 0.06), 0 4px 24px rgba(0, 0, 0, 0.06);
 }
 
@@ -86,7 +86,7 @@
   --ifm-link-color: var(--gg-coral-600);
   --ifm-link-hover-color: var(--gg-coral-700);
 
-  --ifm-navbar-background-color: rgba(28, 28, 36, 0.82);
+  --ifm-navbar-background-color: #1c1c24;
   --docusaurus-highlighted-code-line-bg: rgba(239, 133, 86, 0.18);
 }
 
@@ -132,10 +132,22 @@ h1, h2, h3, h4, h5, h6 {
    ════════════════════════════════════════════════════════════════ */
 
 .navbar {
-  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  /* backdrop-filter must NOT be on the navbar directly — it would create a
+     containing block for position:fixed children (e.g. .navbar-sidebar),
+     causing the mobile menu to be clipped to the nav area on WebKit. */
+  position: relative;
   border-bottom: 1px solid var(--glass-border);
   box-shadow: var(--ifm-navbar-shadow);
+}
+
+.navbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .navbar__brand {
@@ -151,6 +163,18 @@ h1, h2, h3, h4, h5, h6 {
 .navbar__link--active,
 .navbar__link:hover {
   color: var(--gg-coral-500) !important;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   MOBILE NAVBAR SIDEBAR — ensure it overlays all content
+   ════════════════════════════════════════════════════════════════ */
+
+.navbar-sidebar {
+  z-index: var(--ifm-z-index-overlay); /* 400 — above any fixed/sticky content */
+}
+
+.navbar-sidebar__backdrop {
+  z-index: calc(var(--ifm-z-index-overlay) - 1); /* 399 — below sidebar, above content */
 }
 
 /* ════════════════════════════════════════════════════════════════
